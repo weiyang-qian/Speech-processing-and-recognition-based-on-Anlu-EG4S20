@@ -1,0 +1,40 @@
+set_pin_assignment	{ SD_DCLK }	{ LOCATION = J1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ SD_MISO }	{ LOCATION = G1; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ SD_MOSI }	{ LOCATION = H1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ SD_nCS }	{ LOCATION = K2; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ aud_adcdat }	{ LOCATION = F7; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ aud_bclk }	{ LOCATION = C4; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ aud_dacdat }	{ LOCATION = C5; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ aud_lrc }	{ LOCATION = D6; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ aud_mclk }	{ LOCATION = B3; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ aud_scl }	{ LOCATION = B2; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ aud_sda }	{ LOCATION = B1; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ change_mode }	{ LOCATION = B12; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ filter_en }	{ LOCATION = A14; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ led[0] }	{ LOCATION = B15; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[1] }	{ LOCATION = B16; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[2] }	{ LOCATION = C15; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[3] }	{ LOCATION = C16; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[4] }	{ LOCATION = E13; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[5] }	{ LOCATION = E16; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[6] }	{ LOCATION = F16; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[7] }	{ LOCATION = B14; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ led[8] }	{ LOCATION = C2; IOSTANDARD = LVCMOS25; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment	{ localization_en }	{ LOCATION = A12; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ play_en }	{ LOCATION = B10; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ record_en }	{ LOCATION = A11; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ sys_clk }	{ LOCATION = R7; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ sys_rst_n }	{ LOCATION = A9; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+set_pin_assignment	{ voice_change_en }	{ LOCATION = A13; IOSTANDARD = LVCMOS25; PULLTYPE = PULLUP; }
+
+
+
+
+
+
+
+
+
+#set_pin_assignment	{ volume[0] }	{ LOCATION = A10; }
+#set_pin_assignment	{ volume[1] }	{ LOCATION = B10; }
+
