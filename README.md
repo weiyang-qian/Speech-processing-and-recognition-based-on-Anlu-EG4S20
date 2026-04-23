@@ -1,6 +1,5 @@
-# Speech-processing-and-recognition-based-on-Anlu-EG4S20
+# 基于 EG4S20 的音频处理与声纹识别系统
 This project is based on the domestic Anlu EG4S20 core board and ES8388 sound card, and designs a real-time audio processing and voiceprint authentication system
-# 基于 EG4S20 的音频处理与声纹识别系统（项目概述）
 
 ## 1. 项目简介
 本项目面向 2025 年 FPGA 创新设计场景，完成了一个“硬件实时音频处理 + 软件声纹身份确认”的完整方案：
