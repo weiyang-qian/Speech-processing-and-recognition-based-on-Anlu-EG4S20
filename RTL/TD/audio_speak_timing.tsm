@@ -1,0 +1,17 @@
+eagle_s20
+13 0 0 0 0 0 0
+infinity infinity audio_speak eagle_s20 EG4S20BG256 Detail NA 12 0
+
+Timing group statistics: 
+	Clock constraints: 
+	  No constraint path
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 5 clock net(s): 
+	aud_bclk_syn_4
+	aud_mclk_dup_1
+	sys_clk_dup_1
+	u_es8388_ctrl/u_es8388_config/u_i2c_dri/dri_clk_syn_4
+	u_pll_clk/clk0_out
+
